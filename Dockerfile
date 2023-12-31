@@ -1,9 +1,9 @@
-FROM ruby:3.2.2-alpine
+FROM ruby:3.3.0-alpine
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/lemonarc/jekyll-action"
-LABEL homepage="https://github.com/lemonarc/jekyll-action"
-LABEL maintainer="Leon Aves <leon@lemonarc.com>"
+LABEL repository="https://github.com/lumiscosity/jekyll-action"
+LABEL homepage="https://github.com/lumiscosity/jekyll-action"
+LABEL maintainer="lumiscosity <averyrudelphe@gmail.com>"
 
 RUN apk add --no-cache git build-base
 
